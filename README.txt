@@ -1,6 +1,11 @@
 
 File Search Pro
-File Search Pro is a powerful and user-friendly file indexing and searching application designed for Windows. It allows users to quickly index directories located anywhere on your local PC, network drive or external drive, search for files in real-time, filter results, and perform various file management tasks. The application is equipped with features like tagging, emailing files, and support for both light and dark modes. Help menu is available in the application menu. This application could be exapanded upon for more features including integrating with drop box or firebase.
+File Search Pro is a powerful and user-friendly file indexing and searching application designed for Windows.
+It allows users to quickly index directories located anywhere on your local PC, network drive or external drive,
+search for files in real-time, filter results, and perform various file management tasks.
+The application is equipped with features like tagging, emailing files, and support for both light and dark modes.
+Help menu is available in the application menu.
+This application could be exapanded upon for more features including integrating with drop box or firebase.
 
 Features
 🔍 Real-Time Search: Type keywords to instantly filter files by name.
