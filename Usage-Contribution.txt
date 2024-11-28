@@ -13,24 +13,7 @@ Features
 📦 Save Files: Save indexed files to a different location with ease.
 🎨 Dark Mode: Toggle between light and dark modes for better visibility.
 🔒 Excluded Files: Automatically excludes system-critical directories and specific file types (e.g., .exe, .dll, .ini).
-Installation
-Option 1: Download the Installer
-Download the latest installer (setup-installer.exe) from the Releases section.
-Run the installer and follow the on-screen instructions.
-Option 2: Run from Source
-Install Python 3.9+ if not already installed.
-Clone this repository:
-bash
-Copy code
-git clone https://github.com/your-username/FileSearchPro.git
-Install the required dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-Run the application:
-bash
-Copy code
-python src/main.py
+
 Usage
 Indexing a Directory
 Click Add Directory to select a directory to index.
@@ -48,8 +31,6 @@ Right-click a file and select Save As... to copy it to a different location.
 Screenshots
 (Add screenshots of your application here to make the README visually appealing!)
 
-Changelog
-See CHANGELOG.md for a detailed list of updates and new features in each release.
 
 Contributing
 Contributions are welcome! If you'd like to contribute:
@@ -60,66 +41,6 @@ Make your changes and commit them (git commit -m "Added a new feature").
 Push to the branch (git push origin feature-branch-name).
 Open a pull request.
 
-
-File Search Pro
-File Search Pro is a powerful and user-friendly file indexing and searching application designed for Windows. It allows users to quickly index directories, search for files in real-time, filter results, and perform various file management tasks. The application is equipped with features like tagging, emailing files, and support for both light and dark modes.
-
-Features
-🔍 Real-Time Search: Type keywords to instantly filter files by name.
-📁 Directory Indexing: Index up to 10 directories and monitor them for real-time changes.
-🛠 File Filtering: Apply common file type or developer/engineering file type filters.
-🏷 Tag Management: Add, edit, and remove tags to organize your files.
-📧 Email Files: Send single or multiple files as email attachments (Outlook required).
-📦 Save Files: Save indexed files to a different location with ease.
-🎨 Dark Mode: Toggle between light and dark modes for better visibility.
-🔒 Excluded Files: Automatically excludes system-critical directories and specific file types (e.g., .exe, .dll, .ini).
-Installation
-Option 1: Download the Installer
-Download the latest installer (setup-installer.exe) from the Releases section.
-Run the installer and follow the on-screen instructions.
-Option 2: Run from Source
-Install Python 3.9+ if not already installed.
-Clone this repository:
-bash
-Copy code
-git clone https://github.com/your-username/FileSearchPro.git
-Install the required dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-Run the application:
-bash
-Copy code
-python src/main.py
-Usage
-Indexing a Directory
-Click Add Directory to select a directory to index.
-Indexed files will appear in the results list with real-time monitoring.
-Searching
-Use the search bar to filter results by file name or keywords.
-Filters
-Select from Common Files Filter or Dev/Eng Files Filter in the dropdown menus to refine results.
-Tagging
-Right-click a file and choose Add/Edit Tags to organize files with tags.
-Email Files
-Right-click a file or use Ctrl+Click to select multiple files, then choose Send as Email... to attach them to an Outlook email.
-Save Files
-Right-click a file and select Save As... to copy it to a different location.
-Screenshots
-(Add screenshots of your application here to make the README visually appealing!)
-
-Changelog
-See CHANGELOG.md for a detailed list of updates and new features in each release.
-
-Contributing
-Contributions are welcome! If you'd like to contribute:
-
-Fork the repository.
-Create a new branch (git checkout -b feature-branch-name).
-Make your changes and commit them (git commit -m "Added a new feature").
-Push to the branch (git push origin feature-branch-name).
-Open a pull request.
-License
 This project is licensed under the GNU General Public License (GPL). See LICENSE for more details.
 
 Support
