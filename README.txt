@@ -6,6 +6,7 @@ search for files in real-time, filter results, and perform various file manageme
 The application is equipped with features like tagging, emailing files, and support for both light and dark modes.
 Help menu is available in the application menu.
 This application could be exapanded upon for more features including integrating with drop box or firebase.
+For very large databases it could be upgraded to use Sqlite3 and multi-threading
 
 Features
 🔍 Real-Time Search: Type keywords to instantly filter files by name.
