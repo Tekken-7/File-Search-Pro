@@ -18,4 +18,5 @@ File Search Pro is an open-source file indexing and search tool designed for eff
 - pywin32 (for Outlook email functionality)
 
 ## Installation
-1. Clone the repository:
+1. Clone the repository: OR
+2. Download the source code zip file
