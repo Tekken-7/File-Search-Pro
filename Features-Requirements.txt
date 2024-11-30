@@ -11,7 +11,7 @@ File Search Pro is an open-source file indexing and search tool designed for eff
 - Excludes system directories and specified file types from indexing.
 
 ## Requirements
-- Python 3.8 or later
+- Python 3.9 or later
 - PyQt5
 - Watchdog
 - Filelock
