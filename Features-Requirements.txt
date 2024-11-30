@@ -6,11 +6,12 @@ File Search Pro is an open-source file indexing and search tool designed for eff
 - Real-time directory monitoring with dynamic updates.
 - Advanced file filtering by type, tags, and search queries.
 - Save, tag, or email files directly from the app.
+- Tag Search: Search tags in the current working directory by typing "tag:" in the real time search bar.
 - Light and dark mode support.
 - Excludes system directories and specified file types from indexing.
 
 ## Requirements
-- Python 3.9 or later
+- Python 3.8 or later
 - PyQt5
 - Watchdog
 - Filelock
