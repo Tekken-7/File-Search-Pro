@@ -8,9 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## **[Unreleased]**
+## **[1.19.0]**
 ### Added
-- Initial structure for future improvements (e.g., cloud integration, SqLite3, Multi-threading, more robust error handling especially when indexing large database directory folders).
+- Added search tag function so user can now type "tag:" in the search field to find tagged files.
+- Added more robust directory and target safe path function for stronger validation.
 
 ---
 
