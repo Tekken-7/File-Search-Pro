@@ -1,6 +1,6 @@
 
 GNU GENERAL PUBLIC LICENSE
-Version 1.18, 28 November 2024
+Version 1.19, 28 November 2024
 
 Copyright (C) 2024 [Kristopher Sorensen]
 
