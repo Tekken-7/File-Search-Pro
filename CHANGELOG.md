@@ -17,7 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## **[1.18.0] - 2024-11-26**
 ### Added
-- Send multiple files as email attachments via Outlook.
+- Send files as email attachments via Outlook.
 - Exclude specific file types (.exe, .dll, .ini, etc.) from indexing.
 - Toggle feature for showing/hiding date columns.
 
