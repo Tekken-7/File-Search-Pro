@@ -374,12 +374,32 @@ class FileSearcherApp(QMainWindow):
 
             tag_action = context_menu.addAction("Add/Edit Tags")
             tag_action.triggered.connect(lambda: self.manage_tags(item))
+
+            delete_tag_action = context_menu.addAction("Delete All Tags")
+            delete_tag_action.triggered.connect(lambda: self.delete_all_tags(item))
+
             
             send_email_action = context_menu.addAction("Send as Email...")
             send_email_action.triggered.connect(lambda: self.send_email(item))
 
             context_menu.exec_(self.result_list.mapToGlobal(position))
 
+
+    def delete_all_tags(self, item):
+        """Deletes all tags from a file after confirmation."""
+        selected_file = item.data(Qt.UserRole)
+        tags = self.tag_manager.get_tags(selected_file)
+
+        if tags:
+            reply = QMessageBox.question(self, "Delete All Tags", "Are you sure you want to delete all tags from this file?",
+                                        QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
+            if reply == QMessageBox.Yes:
+                for tag in tags[:]:  # Iterate over a copy of the list
+                    self.tag_manager.remove_tag(selected_file, tag)
+                QMessageBox.information(self, "Tags Removed", "All tags have been removed from the file.")
+                self.refresh_files()  # Refresh the file list to reflect the changes
+        else:
+            QMessageBox.information(self, "No Tags", "This file does not have any tags to delete.")
 
     # Add or edit tags
     def manage_tags(self, item):
@@ -752,17 +772,10 @@ class FileSearcherApp(QMainWindow):
 
 
 
-    def is_safe_path(base_path, target_path, follow_symlinks=True):
-        # Normalize and resolve paths
-        base_path = os.path.normpath(os.path.abspath(base_path))
-        target_path = os.path.normpath(os.path.abspath(target_path))
-        
-        # Optionally resolve symlinks
-        if follow_symlinks:
-            base_path = os.path.realpath(base_path)
-            target_path = os.path.realpath(target_path)
-    
-        # Check if the base path is a prefix of the target path
+    def is_safe_path(self, base_path, target_path):
+        """Ensure the target path is within the base path."""
+        base_path = os.path.abspath(base_path)
+        target_path = os.path.abspath(target_path)
         return os.path.commonpath([base_path]) == os.path.commonpath([base_path, target_path])
 
 
