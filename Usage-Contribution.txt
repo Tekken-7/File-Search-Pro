@@ -13,7 +13,7 @@ Features
 🎨 Dark Mode: Toggle between light and dark modes for better visibility.
 🔒 Excluded Files: Automatically excludes system-critical directories and specific file types (e.g., .exe, .dll, .ini).
 Installation
-Option 1: Download the Installer
+Option 1: Clone respository
 Option 2: Download the source code and run from command line or compile it to an exe
 
 
