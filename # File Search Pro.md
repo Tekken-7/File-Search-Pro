@@ -19,3 +19,4 @@ File Search Pro is an open-source file indexing and search tool designed for eff
 
 ## Installation
 1. Clone the repository:
+2. Download the source code
