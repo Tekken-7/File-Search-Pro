@@ -31,7 +31,6 @@ from PyQt5.QtGui import QIcon
 from filelock import FileLock, Timeout
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
-import shutil
 
 # Path to save the JSON index file in the same directory as the script or .exe
 if getattr(sys, 'frozen', False):
@@ -116,7 +115,7 @@ class HelpDialog(QDialog):
             <li><b>Add Tags:</b> Right-click on a file to add or edit tags. Tagged files are displayed with a yellow highlight.</li>
             <li><b>Tags Info:</b> If someone renames a file in the original directory then your tag will disappear from that file in your index search results.</li>
             <li><b>Search Tags:</b> In the real time search just type "tag:". All files with a tag in the current working directory will be displayed in your results.</li>
-            <li><b>Remove Tags:</b> Right-click on a file to add or edit tags. Make it blank then hit ok to remove the tag.</li>
+            <li><b>Manage Tags:</b> Right-click on a file to add / edit or delete tags.</li>
             <li><b>Opening Files:</b> Double-click a file in the list to open it with the default application.</li>
             <li><b>Saving Files:</b> Right-click on a file and choose "Save As" to save it to a different location.</li>
             <li><b>Email Files:</b> Right-click on a file and choose "Send As Email" to open and attach in an outlook email. Only works with Outlook...</li>
@@ -212,7 +211,7 @@ class FileSearcherApp(QMainWindow):
         self.tag_manager = TagManager()
         # Initialize dark mode tracking
         self.dark_mode_enabled = False
-        self.directories = []  # Store up to 7 directory paths
+        self.directories = []  # Store up to 10 directory paths
         self.current_directory = None  # Currently selected directory
         self.files = set()
         self.last_modified_time = 0
@@ -266,7 +265,7 @@ class FileSearcherApp(QMainWindow):
             ".scss", ".ts", ".go", ".swift", ".kt", ".rs", ".sql", ".sh", ".bat", ".pl",
             ".xml", ".json", ".yaml", ".yml", ".lua", ".asp", ".jsp", ".md", ".vue", ".jsx", ".tsx",
             ".dwg", ".dxf", ".step", ".stp", ".iges", ".igs", ".prt", ".asm", ".sldprt",
-            ".sldasm", ".slddrw", ".stl", ".sch", ".brd", ".pcb", ".sp", ".dip", ".vsm", ".dsn", ".gbr", ".ink"
+            ".sldasm", ".slddrw", ".stl", ".sch", ".brd", ".pcb", ".sp", ".dip", ".vsm", ".dsn", ".gbr"
         ])
         self.dev_filter_dropdown.currentIndexChanged.connect(self.apply_filter)
         self.layout.addWidget(self.dev_filter_dropdown)
