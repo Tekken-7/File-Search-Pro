@@ -1,4 +1,4 @@
-File Search Pro
+File Search Pro by Tekken-7 (Kristopher Sorensen)
 File Search Pro is a powerful and user-friendly file indexing and searching application designed for Windows. It allows users to quickly index directories located anywhere on your local PC, network drive or external drive, search for files in real-time, filter results, and perform various file management tasks. The application is equipped with features like dynamic updates, tagging, search tags, emailing files, and support for both light and dark modes. Safe path validation for directory folders and target files. Help menu is also available in the application menu.
 
 Features
