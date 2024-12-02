@@ -4,7 +4,7 @@ File Search Pro is a powerful and user-friendly file indexing and searching appl
 
 Features
 🔍 Real-Time Search: Type keywords to instantly filter files by name.
-📁 Directory Indexing: Index up to 10 directory folders as large as 10 GB each or larger and monitor them for real-time changes.
+📁 Directory Indexing: Index up to 10 directory folders as large as 10 GB each or larger and monitors them for real-time changes.
 🛠 File Filtering: Apply common file type or developer/engineering file type filters.
 🏷 Tag Management: Add, edit, and remove tags to organize your files.
 🏷 Tag Search: Search tags in the current working directory by typing "tag:" in the real time search bar.
