@@ -11,4 +11,4 @@ Features
 📧 Email Files: Send single or multiple files as email attachments (Outlook required).
 📦 Save Files: Save indexed files to a different location with ease.
 🎨 Dark Mode: Toggle between light and dark modes for better visibility.
-🔒 Excluded Files: Automatically excludes system-critical directories and specific file types (e.g., .exe, .dll, .ini).
+🔒 Excluded Files: Automatically excludes system-critical directories likw C:\\Windows and specific file types (e.g., .exe, .dll, .ini).
