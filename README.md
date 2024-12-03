@@ -7,7 +7,7 @@ Features
 🛠 File Filtering: Apply common file type or developer/engineering file type filters.
 🏷 Tag Management: Add, edit, and remove tags to organize your files.
 🏷 Tag Search: Search tags in the current working directory by typing "tag:" in the real time search bar.
-📧 Email Files: Send single or multiple files as email attachments (Outlook required).
+📧 Email Files: Send files as email attachments (Outlook required).
 📦 Save Files: Save indexed files to a different location with ease.
 🎨 Dark Mode: Toggle between light and dark modes for better visibility.
 🔒 Excluded Files: Automatically excludes system-critical directories likw C:\\Windows and specific file types (e.g., .exe, .dll, .ini).
