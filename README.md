@@ -11,4 +11,5 @@ Features
 📦 Save Files: Save indexed files to a different location with ease.
 🎨 Dark Mode: Toggle between light and dark modes for better visibility.
 🔒 Excluded Files: Automatically excludes system-critical directories likw C:\\Windows and specific file types (e.g., .exe, .dll, .ini).
+
 Here is the direct download link for the file search pro installer for windows 10 & 11: https://www.dropbox.com/scl/fi/9q38kgjx8tyu2yvf0lvrj/FS-Pro-Setup-1.19.exe?rlkey=crk3wp2eyt2goacqcmogst9rx&st=yo1922cc&dl=1
